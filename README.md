@@ -4,15 +4,16 @@ CLOUD DATA STORAGE SERVER
 To create and configure an Amazon RDS MySQL DB instance with Multi-AZ deployment, connect it to a web application using a security group and DB subnet group, and perform CRUD (Create, Read, Update, Delete) operations on the database through the application.
 
 ## ALGORITHM
-Log in to the AWS Management Console.
-Create a DB Security Group allowing MySQL (3306) access from the Web Security Group.
-Create a DB Subnet Group with subnets in two Availability Zones.
-Launch an Amazon RDS MySQL Multi-AZ DB instance.
-Configure the DB instance with the required username, password, and database name. Wait until the database status becomes Available and copy the endpoint.
-Open the provided web application using the Web Server IP.
-Enter the RDS endpoint, database name, username, and password.
-Connect the application to the database.
-Test the application by adding, editing, viewing, and deleting records. 
+1. Log in to the AWS Management Console.
+2. Create a DB Security Group allowing MySQL (3306) access from the Web Security Group.
+3. Create a DB Subnet Group with subnets in two Availability Zones.
+4. Launch an Amazon RDS MySQL Multi-AZ DB instance.
+5. Configure the DB instance with the required username, password, and database name. Wait until the database status becomes Available and copy the endpoint.
+6. Open the provided web application using the Web Server IP.
+7. Enter the RDS endpoint, database name, username, and password.
+8. Connect the application to the database.
+9. Test the application by adding, editing, viewing, and deleting records.
+   
 ## Output
 <img width="1920" height="1080" alt="Screenshot 2026-08-17 151951" src="https://github.com/user-attachments/assets/0869d38b-ac28-4fc2-9811-27712427e491" />
 <img width="1920" height="1080" alt="Screenshot 2026-08-17 151951 - Copy" src="https://github.com/user-attachments/assets/4e111960-577c-45ee-aa77-5958298e5246" />
